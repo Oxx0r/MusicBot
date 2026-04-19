@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       version_number:
-        description: '0.4.5'     
+        description: 'Version'     
         required: true
         type: string
       info:
-        description: 'OxxVersion 0.4.5'
+        description: 'Beschreibung'
         required: true
         type: string
 
